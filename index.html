@@ -27,10 +27,10 @@
                 <form action="">
 
                     <label for="user">Nombre de Usuario/Email</label>
-                    <input id="user" class="inicio-input" type="email">
+                    <input id="user" class="inicio-input" type="email" placeholder="Ingrese su Usuario/Email">
                     
                     <label for="password">Contraseña</label>
-                    <input id="password" class="inicio-input" type="password">
+                    <input id="password" class="inicio-input" type="password" placeholder="Ingrese su Contraseña">
 
                     <div id="mensajeError">
 
@@ -47,11 +47,21 @@
             <img src="img/home-mancha.svg" class="inicio-mancha">
             <img src="img/home-img.svg" class="inicio-imgHome">
 
-            <a href=""><img src="img/robot.svg" class="inicio-robot"></a>
+            <a href="#" id="robot"><img src="img/robot.svg" class="inicio-robot"></a>
         </section>
+
+        <div id="popUp" class="popup verPopup">
+            <h1>¡Hola! Bienvenido/a</h1>
+        <h2>Para acceder a la plataforma introduce tu<strong> Usuario y Contraseña</strong>, luego haz click en el botón <strong>Login. <br><br></strong>
+        Si haz olvidado tu contraseña, haz click en <strong><span>Olvide mi contraseña.</span></strong> para restablecerla.
+        </h2>
+        <img src="img/LOGO.png">
+        <button class="btn-popUp">Aceptar</button>
+        </div>
 
     </main>
     <script src="js/login.js"></script>
+    <script src="js/popUp.js"></script>
 </body>
 
 </html>
