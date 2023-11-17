@@ -26,7 +26,7 @@ main {
 }
 
 .main-fondo-cover {
-    width: 100%;
+    width: 2137px;
     position: fixed;
     top: 0%;
     z-index: 1;
@@ -35,14 +35,14 @@ main {
 .main-fondo {
     width: 100%;
     position: fixed;
-    top: 150px;
+    top: 416px;
     z-index: 1;
 }
 
 .main-fondo-1 {
     width: 100%;
     position: fixed;
-    top: 280px;
+    top: 550px;
     z-index: -1;
 }
 
@@ -57,15 +57,15 @@ main {
 }
 
 .inicio-img-LEIM {
-    width: 200px;
+    width: 380px;
 }
 
 .inicio-titulo-colegio {
     color: white;
     font-family: 'libra-serif-modern-regular';
-    font-size: x-large;
-    margin-left: 40px;
-    margin-bottom: 50px;
+    font-size: xx-large;
+    margin-left: 28px;
+    margin-bottom: 62px;
     text-align: center;
 }
 
@@ -84,37 +84,36 @@ main {
     font-family: 'Questrial', sans-serif;
     color: white;
     padding: 2px;
-    font-size: medium;
-    margin-left: 90px;
+    font-size: xx-large;
+    margin-left: 28px;
 }
 
 .inicio-input {
-    width: 350px;
-    margin: 0px 0px 20px 90px;
+    width: 465px;
+    margin: 0px 0px 55px 28px;
     border-radius: 10px;
     border: 0px;
-    padding: 5px;
+    padding: 12px;
 }
 
 .inicio-logicaInicio {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    margin-left: 50px;
+    margin-left: 15px;
 }
 
 .btn-login {
-    padding: 5px;
-    width: 100px;
-    border-radius: 8px;
+    padding: 12px;
+    width: 175px;
+    border-radius: 21px;
     font-family: 'Questrial', sans-serif;
-    font-weight: bold;
-    margin-left: 160px;
-    background-color: aquamarine;
-    text-align: center;
+    font-size: larger;
+    letter-spacing: 1px;
+    margin-left: 140px;
+    background-color: #4DA1A4;
     text-decoration: none;
-    color: black;
-    box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+    color: white;
     border: none;
 }
 
@@ -122,31 +121,33 @@ main {
     display: inline-block;
     color: white;
     font-family: 'Questrial', sans-serif;
+    font-size: larger;
     padding: 10px;
-    margin-left: 119px;
+    margin-left: 125px;
+    margin-top: 10px;
 }
 
 .inicio-imgHome {
-    height: 340px;
+    height: 512px;
     position: absolute;
     z-index: 3;
-    right: 240px;
-    top: 190px;
+    right: 220px;
+    top: 265px;
 }
 
 .inicio-robot {
     position: fixed;
     z-index: 99;
-    right: 30px;
-    bottom: 30px;
-    width: 60px;
+    right: 80px;
+    bottom: 5px;
+    width: 100px;
 }
 
 .inicio-mancha {
     position: fixed;
-    top: 0px;
-    right: 90px;
-    width: 36%;
+    top: -2px;
+    right: 9px;
+    width: 45%;
     z-index: 1;
     transform: rotate(90deg);
 }
@@ -167,8 +168,8 @@ main {
     text-align: justify;
     position: fixed;
     z-index: 99;
-    bottom: 100px;
-    right: 65px;
+    bottom: 130px;
+    right: 135px;
     border-radius: 10px;
     box-shadow: 5px 10px 5px -4px rgba(0, 0, 0, 0.50);
 }
@@ -214,7 +215,12 @@ main {
     display: none;
 }
 
-/*INICIO - OLVIDE CONTRASEÑA*/
+/* INICIO RESPONSIVE */
+@media screen and (max-width: 47em){
+    
+}
+
+/* INICIO RESPONSIVE  - OLVIDE CONTRASEÑA*/
 
 .nav {
     flex-wrap: wrap;
@@ -303,13 +309,14 @@ main {
     background-color: #D9D9D9;
     display: flex;
     justify-content: space-around;
-    height: 1030px;
+    height: 1010px;
 }
 
 .home-mancha {
     position: fixed;
     z-index: 2;
     left: 0px;
+    top: 69.5px;
     width: 1310px;
 }
 
@@ -319,7 +326,7 @@ main {
     flex-direction: column;
     text-align: center;
     z-index: 3;
-    margin-top: 100px;
+    margin-top: 13%;
 }
 
 .home-tramites img {
@@ -345,13 +352,13 @@ main {
     flex-direction: column;
     text-align: center;
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 13%;
 }
 
 
 .home-area-padre img {
-    width: 300px;
-    height: 270px;
+    width: 344px;
+    height: 322px;
     margin-top: 8px;
     margin-bottom: 12px;
 }
