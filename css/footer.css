@@ -20,7 +20,7 @@
     position: fixed;
     z-index: 3;
     bottom: -770px;
-    right: -1920px;
+    right: -1830px;
     width: 2500px;
     height: 1000px;
 }
@@ -29,7 +29,7 @@
     position: fixed;
     z-index: 6;
     bottom: 25px;
-    left: 41%;
+    left: 43%;
     text-align: center;
     font-family: 'Questrial', sans-serif;
     font-size: small;
