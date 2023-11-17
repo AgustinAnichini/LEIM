@@ -97,7 +97,7 @@ h1{
     text-align: center;
     font-family: 'Questrial';
     color: #012F41;
-    font-size: 2.4em;
+    font-size: 3.4em;
 }
 .contenedor-main{
     display: flex;
@@ -138,7 +138,7 @@ h1{
 .contenedor-footer{
     position: fixed;
     bottom: 0%;
-    height: 3.5em;
+    /* height: 3.5em; */
     width: 100%;
 }
 /* .img-footer{
@@ -150,7 +150,7 @@ h1{
     padding: px;
     margin: 0%;
     bottom: 0.5em;
-    font-size: 0.6em;
+    font-size: 1.4em;
     color: aliceblue;
     margin: auto;
     width: 100%;
