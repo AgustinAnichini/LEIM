@@ -1,4 +1,3 @@
-
 .inicio-img-LEIM {
     width: 11.11em;
 }
@@ -89,4 +88,49 @@ h6 {
     font-family: 'Questrial', sans-serif;
     font-size: x-large;
     margin-top: 6px;
+}
+
+@media screen and (max-width: 47em) {
+
+
+
+    .nav-home {
+        display: flex;
+        grid-template-areas: "logotipo familia";
+        height: 4em;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-logotipo {
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
+
+    .nav-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin: 0 0.3em
+    }
+
+    .nav-titulo-colegio {
+        display: none;
+    }
+
+    .nav-user {
+        width: 35px;
+        height: 35px;
+    }
+
+    .nav-burger {
+        height: 45px;
+    }
+
+    .nav-burger img {
+        width: 45px;
+        height: 45px;
+    }
 }

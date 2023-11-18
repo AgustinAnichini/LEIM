@@ -196,7 +196,7 @@ main {
     margin-left: 80px;
 }
 
-.btn-popUp{
+.btn-popUp {
     padding: 2px;
     width: 80px;
     border-radius: 8px;
@@ -215,12 +215,8 @@ main {
     display: none;
 }
 
-/* INICIO RESPONSIVE */
-@media screen and (max-width: 47em){
-    
-}
 
-/* INICIO RESPONSIVE  - OLVIDE CONTRASEÑA*/
+/* INICIO  - OLVIDE CONTRASEÑA*/
 
 .nav {
     flex-wrap: wrap;
@@ -446,4 +442,126 @@ main {
 .cronograma-fixed-btn img {
     width: 30px;
     height: 30px;
+}
+
+/* CELULAR */
+
+@media screen and (max-width: 47em) {
+    .inicio-imgHome {
+        display: none;
+        margin-left: -136px;
+    }
+
+    .inicio-img-LEIM {
+        max-width: 20em;
+        margin-left: -110px;
+    }
+
+    .inicio-mancha {
+        display: none;
+    }
+
+    .inicio-titulo-colegio {
+        font-size: larger;
+        margin-left: -91px;
+        text-align: center;
+    }
+
+    .inicio-login label {
+        font-size: medium;
+    }
+
+    .inicio-input {
+        width: 280px;
+        padding: 12px;
+        margin-bottom: 35px;
+    }
+
+    .inicio-olv-password {
+        margin-left: 63px;
+        color: rgb(255, 255, 255);
+        font-size: medium;
+    }
+
+    .btn-login {
+        margin-left: 90px;
+        width: 120px;
+        padding: 2px;
+        font-size: medium;
+    }
+
+    .main-fondo {
+        width: 395px;
+        top: 597px;
+        left: 0px;
+    }
+
+    .main-fondo-1 {
+        width: 101%;
+        top: 638px;
+        left: 0px;
+    }
+
+    .main-fondo-cover {
+        width: 1836px;
+        top: 0px;
+        left: -635px;
+    }
+
+    form {
+        text-align: left;
+        margin-left: -65px;
+    }
+
+    .inicio-robot {
+        right: 20px;
+        bottom: 15px;
+        width: 60px;
+    }
+
+
+    header {
+        background-color: #022E40;
+        width: 100%;
+    }
+
+    .home {
+        flex-direction: column;
+        height: 720px;
+    }
+
+    .home-mancha {
+        width: 375px;
+        transform: rotateZ(90deg);
+        top: -295px;
+        left: 56px;
+    }
+
+    .home-tramites img {
+        max-width: 100%;
+        width: 120px;
+        margin-bottom: 25px;
+        height: 100px;
+    }
+
+    .home-area-padre img {
+        max-width: 100%;
+        width: 120px;
+        margin-bottom: 25px;
+        height: 100px;
+    }
+
+    .home-tramites a {
+        width: 120px;
+        background-color: #022E40;
+        margin-left: 105px;
+        font-size: medium;
+    }
+
+    .home-area-padre a{
+        width: 120px;
+        background-color: #022E40;
+        margin-left: 105px;
+        font-size: medium;
+    }
 }
