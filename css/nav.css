@@ -90,10 +90,12 @@ h6 {
     margin-top: 6px;
 }
 
-@media screen and (max-width: 47em) {
-
-
-
+@media screen and (max-width: 47em){
+/* --HEADER-- */
+    header{
+        background-color: #022E40;
+        width: 100%;
+    }
     .nav-home {
         display: flex;
         grid-template-areas: "logotipo familia";
@@ -108,7 +110,7 @@ h6 {
         width: 70%;
     }
 
-    .nav-logo {
+    .nav-logo{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -117,7 +119,13 @@ h6 {
     }
 
     .nav-titulo-colegio {
-        display: none;
+        color: white;
+        font-family: 'libra-serif-modern-regular';
+        font-size: 0.8em;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: start;
     }
 
     .nav-user {
@@ -125,12 +133,24 @@ h6 {
         height: 35px;
     }
 
-    .nav-burger {
-        height: 45px;
-    }
-
+    .nav-burger{height: 45px;}
     .nav-burger img {
         width: 45px;
         height: 45px;
+    }
+
+    .home-Familia {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        margin: 0px;
+        grid-area: familia;
+        width: 25%;
+        height: 50px;
+    }
+
+    .home-Familia h2 {
+        display: none;
     }
 }
