@@ -72,6 +72,28 @@ header {
     text-align: center;
 }
 
+
+.cronograma-fixed-btn {
+    position: fixed;
+    z-index: 99;
+    right: -95px;
+    bottom: 40px;
+    background-color: #022E40;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.cronograma-fixed-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+
 /*
 .aca :hover{
     background-color: #4DA1A4;
