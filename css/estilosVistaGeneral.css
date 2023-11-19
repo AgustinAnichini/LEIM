@@ -501,3 +501,32 @@ img.persona-olvide {
     color: white;
     font-family: 'Questrial', sans-serif;
 }
+.div-gris-con-avatar {
+    display: flex;
+    flex-direction: column;
+    background-color: #65858C;
+    left: 18%;
+    position: relative;
+    width: 1050px;
+    height: 260px;
+    border-radius: 25px;
+    margin: 10px;
+    top: -36px;
+}
+img.image-compartida {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+.div-debloque-avatar {
+    padding: 0;
+    margin-left: -31px;
+}
+
+.top-less {
+    margin-top: -15px;
+}
+
+.div-gris-con-avatar-flex {
+    display: flex;
+}
