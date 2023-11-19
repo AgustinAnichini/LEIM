@@ -1,4 +1,8 @@
 /* FOOTER*/
+footer{
+    position: relative;
+}
+
 .footer-img {
     position: fixed;
     z-index: 4;
