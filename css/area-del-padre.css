@@ -262,7 +262,7 @@ body{
 
     /* ------------migas de pan--------------------- */
     #migasDePan{width: 100%;}
-    #migasDePan a{font-size: 2em;}
+    #migasDePan a, #migasDePan p{font-size: 2em;}
 
     /* -----------Titulo------------------------ */
     #TituloAreaDelPadre{
