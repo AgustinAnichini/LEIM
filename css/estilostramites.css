@@ -109,7 +109,18 @@ h6 {
     margin-top: 6px;
 }
 
-/*Header*/
+/*Migas de pan*/
+#migasDePan{
+    width: 30%;
+    display:flex;
+    flex-direction: row;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+#migasDePan a, #migasDePan p{font-size: 1.5em; font-family: 'Questrial', sans-serif;}
+#migasDePan a{text-decoration: none;}
+#migasDePan a:hover{text-decoration:underline;}
+#migasDePan #link_area{color: #fff;}
 /* main */
 h1 {
     text-align: center;
