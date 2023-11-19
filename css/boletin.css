@@ -34,7 +34,7 @@ main{
 #migasDePan a, #migasDePan p{font-size: 1.5em;}
 #migasDePan a{text-decoration: none;}
 #migasDePan a:hover{text-decoration:underline;}
-#migasDePan #link_boletin{color: #fff;}
+#migasDePan {color: #fff;}
 
 /* --------------------TITULOS-------------------------- */
 
