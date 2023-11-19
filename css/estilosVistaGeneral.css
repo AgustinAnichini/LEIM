@@ -584,9 +584,28 @@ img.image-compartida {
     width: 2.7em;
 }
 @media screen and (max-width: 47em) {
+    body{
+       background-color:  #4DA1A4;
+    }
+    /* SEÑOR MIGAS DE PAN, A VER SI LIMPIA LA MESA */
+    #migasDePan{
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        margin: 20px 34px;
+    }
+    #migasDePan a, #migasDePan p{font-size: 1em; font-family: 
+        'Questrial', sans-serif;
+        color: white;
+    }
+    #migasDePan a{text-decoration: none;}
+    #migasDePan a:hover{text-decoration:underline;}
+    #migasDePan #link_area{color: #fff;}
+
     .menu-costado {
         /*SI*/
         position: fixed;
+        z-index: 99;
         bottom: 0%;
         width: 100%;
         height: 10%;
@@ -626,5 +645,29 @@ img.image-compartida {
         font-family: 'Questrial', sans-serif;
         text-align: center;
     }
+    /* CALENDARIO */
+
+.contenedor-calendario {
+    display: none;
+}
+
+.calendario {
+    border-radius: 10px;
+    margin-bottom: 55px;
+}
+
+.Cronograma-titulos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.Cronograma-titulos h1 {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 2em;
+}
 }
 
