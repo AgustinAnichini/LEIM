@@ -83,7 +83,7 @@ position: relative;}
 /* Funciones de tarjeta */
 .FuncionesTarjeta{
     display: grid;
-    grid-template-areas: "vista contactar" "boletin foro";
+    grid-template-areas: "vista boletin" "foro contactar";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 1em;
@@ -97,12 +97,13 @@ position: relative;}
 }
 
 .contactarPreceptor{grid-area: contactar; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 100%;}
+.contactarPreceptor{display: none;}
 .contactarPreceptor p{text-align: center;}
 
-.Boletin{grid-area: boletin; display: flex; justify-content: space-between; align-items: center; flex-direction: column; border-right: 2px solid ghostwhite; height: 100%;
+.Boletin{grid-area: boletin; display: flex; justify-content: space-between; align-items: center; flex-direction: column;  height: 100%;
 }
 
-.Foro{grid-area: foro; display: flex; align-items: center; justify-content: space-between; flex-direction: column; height: 100%;}
+.Foro{grid-area: foro; display: flex; align-items: center; justify-content: space-between; flex-direction: column; height: 100%; border-right: 2px solid ghostwhite;}
 .FuncionesTarjeta img{width: 30%;}
 .vistaGeneral img{width: 36%;}
 .Boletin img{width: 27%;}
@@ -112,13 +113,12 @@ position: relative;}
 }
 .Foro:hover{
     background-color: #022E40; transition: 0.4s;
-    border-radius: 0 0 30% 0;
 }
 .contactarPreceptor:hover{
     background-color: #022E40; transition: 0.4s;
 }
 .Boletin:hover{
-    background-color: #022E40; transition: 0.4s; border-radius: 0 0 0 30%;
+    background-color: #022E40; transition: 0.4s;
 }
 
 /* ---------------BOTON DE TARJETA------------ */

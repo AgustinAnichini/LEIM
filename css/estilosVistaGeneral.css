@@ -477,6 +477,10 @@ img.persona-olvide {
     height: auto;
     margin-top: 60px;
 }
+
+#ultimo-div{
+    margin-bottom: 8em;
+}
 /* CALENDARIO */
 
 .contenedor-calendario {
@@ -530,3 +534,53 @@ img.image-compartida {
 .div-gris-con-avatar-flex {
     display: flex;
 }
+
+/* MATERIAS */
+#Materias{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;
+    margin-left: 210px;
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+    margin-bottom: 5em;
+}
+#Materias h2{
+    font-size: 4em;
+    margin-bottom: 0.3em;
+}
+#Contenedor-Materias{
+    display: flex;
+    flex-direction: column;
+}
+.tarjetas-materias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #022E40;
+    border-radius: 25px;
+    height: 4em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+.tarjetas-materias h3{
+    width: 30%;
+}
+.tarjetas-materias :last-child{
+    text-align: end;
+}
+.botones-materias{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.botones-materias img{
+    width: 2em;
+    height: auto;
+}
+.botones-materias :first-child{
+    width: 2.7em;
+}
+
