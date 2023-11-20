@@ -93,12 +93,44 @@ h6 {
     margin-top: 6px;
 }
 
-@media screen and (max-width: 47em){
-/* --HEADER-- */
-    header{
+.menu-burger {
+    position: fixed;
+    right: 0px;
+    top: 70px;
+    background-color: #022E40;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    width: 222px;
+    height: 150px;
+}
+
+.menu-burger a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: x-large;
+    text-align: left;
+    padding: 10px;
+}
+
+.menu-burger a:hover{
+    background-color: #65858C;
+    transition: 0.4s;
+}
+
+.burgerNone{
+    display: none;
+}
+
+@media screen and (max-width: 47em) {
+
+    /* --HEADER-- */
+    header {
         background-color: #022E40;
         width: 100%;
     }
+
     .nav-home {
         display: flex;
         grid-template-areas: "logotipo familia";
@@ -113,7 +145,7 @@ h6 {
         width: 70%;
     }
 
-    .nav-logo{
+    .nav-logo {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -136,7 +168,10 @@ h6 {
         height: 35px;
     }
 
-    .nav-burger{height: 45px;}
+    .nav-burger {
+        height: 45px;
+    }
+
     .nav-burger img {
         width: 45px;
         height: 45px;
