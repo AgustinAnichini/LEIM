@@ -596,7 +596,7 @@ img.image-compartida {
         width: 100%;
         display:flex;
         flex-direction: row;
-        margin: 20px 34px;
+        margin: 20px 21px;
     }
     #migasDePan a, #migasDePan p{font-size: 1em; font-family: 
         'Questrial', sans-serif;
@@ -666,10 +666,17 @@ img.image-compartida {
     /* CALENDARIO */
 
 .contenedor-calendario {
-    display: none;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+#warningBox{
+    color: #022E40;
 }
 
 .calendario {
+    width: 100%;
+    margin-left: 2.5%;
     border-radius: 10px;
     margin-bottom: 55px;
 }
@@ -685,7 +692,7 @@ img.image-compartida {
 .Cronograma-titulos h1 {
     color: white;
     font-family: 'Questrial', sans-serif;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 .cronograma-fixed-btn {
     position: fixed;
@@ -727,7 +734,7 @@ img.image-compartida {
     align-items: center;
     background-color: #022E40;
     border-radius: 25px;
-    height: 4em;
+    height: 100%;
     margin-bottom: 1em;
     font-size: 0.8em;
 }
@@ -753,33 +760,59 @@ img.image-compartida {
 /* AVISOS */
 #avisos {
     /*SI*/
-    left: 0%;
-    color: #fff;
-    padding: 5px 0px 0px 50px;
     font-family: 'Questrial', sans-serif;
-    color: #fff;
     font-size: 2em;
-    margin-left: 1em;
+    margin-left: -1em;
+    color: #fff;
 }
 .otra {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
 }
 .otra img{
+    height: 40px;
     width: 40px;
 }
 img.img {
-    position: absolute;5
+    position: absolute;
+    z-index: 85;
+    top: 20;
+    left: 40px;
 }
 .card-avisos {
     left: 0%;
-    position: relative;
-    background-color: #022E40;
-    width: 100%;
-    height: auto ;
     border-radius: 30px;
     margin: 10px;
+    height: 350px;
+    background-color: #022E40;
+}
+.de-prueba {
+    /* display: flex;
+    flex-direction: row-reverse; */
+}
+.title {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Questrial', sans-serif;
+    left: 84px;
+    top: 15px;
+    margin-right: 130px;
+}
+.ti {
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+    width: 50%;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+.tex {
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+    top: 15px;
+}
+#ultimo-div{
+    margin-bottom: 25%;
 }
 
 }
