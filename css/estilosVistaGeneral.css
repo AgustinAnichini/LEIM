@@ -578,12 +578,36 @@ img.image-compartida {
     justify-content: space-evenly;
 }
 .botones-materias img{
-    width: 2em;
+    width: 2.2em;
     height: auto;
 }
-.botones-materias :first-child{
-    width: 2.7em;
+.botones-materias a:first-of-type img{
+    width: 3em;
 }
+
+.botones-materias a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* -----------------------RESPONSIVE------------------------------ */
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 47em) {
     body{
        background-color:  #4DA1A4;
