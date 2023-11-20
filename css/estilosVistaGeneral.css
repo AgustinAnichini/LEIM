@@ -587,6 +587,9 @@ img.image-compartida {
     body{
        background-color:  #4DA1A4;
     }
+    .todo {
+        display: none;
+    }
     /* SEÑOR MIGAS DE PAN, A VER SI LIMPIA LA MESA */
     #migasDePan{
         width: 100%;
@@ -606,31 +609,33 @@ img.image-compartida {
         /*SI*/
         position: fixed;
         z-index: 99;
-        bottom: 0%;
+        bottom: 0px;
         width: 100%;
         height: 10%;
         background-color: #022E40;
     }
     .menu-costado-fixed{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         margin: 0px;
         padding: 0px;
-        position: fixed;
-        width: 14.5%;
+        width: 100%;
     }
     .contene {
-        border-bottom: 2px solid #65858C;
-        height: 87px;
+        border-right: 2px solid #65858C;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
-       padding-left: 50px;
+        width: calc(50% - 10px);
+        /* gap: 20px; */
+       padding: 0px;
     }
     .tiesa {
         /*SI*/
-        width: 20%;
-        left: 34px;
-        top: 19px;
+        height: 25%;
+        width: 25%;
+        margin-top: 10px;
     }
     .cronograma-menu {
         text-decoration: none;
@@ -638,12 +643,24 @@ img.image-compartida {
         font-size: 17px;
         font-family: 'Questrial', sans-serif;
     }
-    .aca {
+    /* .aca {
         display: block;
         text-decoration: none;
         color: #fff;
         font-family: 'Questrial', sans-serif;
         text-align: center;
+    } */
+    .aca{
+        display: none;
+    }
+    /* #opciones-general {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-bottom: solid 1px white;
+    } */
+    #opciones-general {
+        display: none;
     }
     /* CALENDARIO */
 
@@ -668,6 +685,20 @@ img.image-compartida {
     color: white;
     font-family: 'Questrial', sans-serif;
     font-size: 2em;
+}
+.cronograma-fixed-btn {
+    position: fixed;
+    z-index: 99;
+    right: -95px;
+    bottom: 120px;
+    background-color: #022E40;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    width: 150px;
 }
 }
 
