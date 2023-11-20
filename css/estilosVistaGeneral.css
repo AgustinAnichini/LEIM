@@ -308,7 +308,7 @@ ul {
     border-bottom: 2px solid #65858C;
 }
 
-.titule {
+#avisos {
     /*SI*/
     color: #fff;
     padding: 5px 0px 0px 50px;
@@ -589,7 +589,7 @@ img.image-compartida {
        background-color:  #4DA1A4;
     }
     .todo {
-        display: none;
+        /* display: none; */
     }
     /* SEÑOR MIGAS DE PAN, A VER SI LIMPIA LA MESA */
     #migasDePan{
@@ -701,5 +701,86 @@ img.image-compartida {
     border-radius: 20px;
     width: 150px;
 }
+/* MATERIAS */
+#Materias{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-left: 1em;
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+    margin-bottom: 5em;
+}
+#Materias h2{
+    font-size: 2em;
+    margin-bottom: 0.3em;
+}
+#Contenedor-Materias{
+    display: flex;
+    flex-direction: column;
+}
+.tarjetas-materias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #022E40;
+    border-radius: 25px;
+    height: 4em;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+}
+.tarjetas-materias h3{
+    width: 30%;
+}
+.tarjetas-materias :last-child{
+    text-align: end;
+}
+.botones-materias{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.botones-materias img{
+    width: 2em;
+    height: auto;
+}
+.botones-materias :first-child{
+    width: 2.7em;
+}
+
+/* AVISOS */
+#avisos {
+    /*SI*/
+    left: 0%;
+    color: #fff;
+    padding: 5px 0px 0px 50px;
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+    font-size: 2em;
+    margin-left: 1em;
+}
+.otra {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.otra img{
+    width: 40px;
+}
+img.img {
+    position: absolute;5
+}
+.card-avisos {
+    left: 0%;
+    position: relative;
+    background-color: #022E40;
+    width: 100%;
+    height: auto ;
+    border-radius: 30px;
+    margin: 10px;
+}
+
 }
 
